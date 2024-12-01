@@ -13,7 +13,7 @@ options.add_argument("--window-size=1920x1080")
 # options.add_argument("--headless")  # Uncomment for headless mode
 
 # Specify the path to your chromedriver
-chromedriver_path = r"C:\Users\ej818\Downloads\chromedriver-win64\chromedriver-win64\chromedriver.exe"
+chromedriver_path = r"chromedriver"
 service = Service(executable_path=chromedriver_path)
 driver = webdriver.Chrome(service=service, options=options)
 
