@@ -65,8 +65,9 @@ def main(url):
             print(f"Error processing an item: {e}")
             continue
     print("data extracted from url..")
-    return extracted_data
     driver.quit()
+
+    return extracted_data
 
 
     
